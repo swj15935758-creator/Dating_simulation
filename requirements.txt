@@ -1,1 +1,59 @@
 # 실제 사용하는 패키지만 버전과 함께 기입하세요.
+
+# 1. Frontend
+streamlit
+streamlit-mic-recorder
+
+# 2. Backend / API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# 3. Database
+sqlalchemy
+psycopg[binary]
+alembic
+
+# 4. LLM / AI
+openai
+pydantic
+pydantic-settings
+
+# 5. Machine Learning
+xgboost
+scikit-learn
+pandas
+numpy
+joblib
+
+# 6. Korean NLP
+kiwipiepy
+
+# 7. STT / Audio
+faster-whisper
+av
+soundfile
+scipy
+
+# 8. TTS / Audio Processing
+gTTS
+pydub
+
+# 9. HTTP / Perso API
+httpx
+requests
+
+# 10. Authentication / Security
+pwdlib[argon2]
+PyJWT
+email-validator
+
+# 11. Environment / Utilities
+python-dotenv
+python-dateutil
+orjson
+openpyxl
+
+# 12. Testing
+pytest
+pytest-asyncio

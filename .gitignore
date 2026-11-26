@@ -1,12 +1,13 @@
-.venv*/
-.env
-__pycache__/
-*.pyc
-.pytest_cache/
-.idea/
-.env.*
-!.env.example
-.streamlit/secrets.toml
-*.log
-output/
-outputs/
+# =========================
+# 7. 모델 학습 임시 산출물
+# =========================
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# AI score 학습 모델은 Git에 포함
+!src/backend/score/model/saved_models/*.pkl
