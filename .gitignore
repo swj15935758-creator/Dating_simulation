@@ -1,13 +1,25 @@
-# =========================
-# 7. 모델 학습 임시 산출물
-# =========================
-*.joblib
-*.pkl
-*.pickle
-*.h5
-*.pt
-*.pth
-*.onnx
+@'
+# Environment variables
+.env
+.env.*
+!.env.example
 
-# AI score 학습 모델은 Git에 포함
-!src/backend/score/model/saved_models/*.pkl
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+'@ | Set-Content -Encoding utf8 .gitignore
